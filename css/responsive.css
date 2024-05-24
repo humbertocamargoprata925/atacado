@@ -1,0 +1,134 @@
+@media all and (max-width:1200px) {
+
+	.wrapper-menu-link {
+		position: fixed;
+		left: -320px;
+		top: 0;
+		bottom: 0;
+		height: 100vh;
+		background-color: var(--color-dark);
+		width: 320px;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		padding: 20px;
+		overflow: auto;
+		display: block;
+	}
+
+	.menu {
+		clear: both;
+		padding-top: 20px;
+	}
+
+	.menu li {
+		float: none;
+		margin-right: 0px;
+		margin-bottom: 20px;
+	}
+
+	#openmenu,
+	#closemenu {
+		display: inline-block;
+	}
+
+	#appointment {
+		display: none;
+	}
+
+	.about-content {
+		-webkit-transform: translateX(0%);
+		-ms-transform: translateX(0%);
+		transform: translateX(0%);
+	}
+
+	.services-content {
+		width: 100%;
+		margin-right: 0px;
+		margin-bottom: 10px;
+	}
+
+	.services-list {
+		width: 100%;
+	}
+
+	.wrapper-contact>div {
+		width: 50%;
+	}
+
+}
+
+@media all and (max-width:800px) {
+
+	.wrapper-edge {
+		position: static;
+		-webkit-transform: translate(0%, 0%);
+		-ms-transform: translate(0%, 0%);
+		transform: translate(0%, 0%);
+	}
+
+	.single-edge {
+		width: 50%;
+		padding: 40px 20px;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		text-align: center;
+	}
+
+	.single-edge:nth-child(2)>div {
+		border: none;
+	}
+
+	.about-img {
+		width: 100%;
+	}
+
+	.about-content {
+		width: 100%;
+		padding: 50px;
+		-webkit-transform: translateX(0%);
+		-ms-transform: translateX(0%);
+		transform: translateX(0%);
+	}
+
+	.services-item {
+		width: calc(50% - 20px);
+	}
+
+	.bookong-form {
+		width: 100%;
+		padding-right: 0px;
+		margin-bottom: 50px;
+	}
+
+	.booking-working-hours {
+		width: 100%;
+	}
+}
+
+@media all and (max-width:600px) {
+
+	.single-edge {
+		width: 100%;
+	}
+
+	.single-edge>div {
+		border: none;
+	}
+
+	.services-item {
+		width: calc(100% - 20px);
+	}
+
+	.wrapper-input input {
+		width: 100%;
+		margin-bottom: 40px;
+	}
+
+	.wrapper-contact>div {
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 55px;
+	}
+}
